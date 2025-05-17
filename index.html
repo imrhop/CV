@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
 </head>
-<body class="text-slate-500" >
+<body class="text-slate-500 min-h-dvh font-[dynapuff]" >
     <header class="text-white  bg-[url('images/op2.jpg')] bg-cover bg-center min-h-dvh pt-16 text-balance brightness-95">
             <nav class="grid grid-cols-7 text-center">
                 <span class="text-2xl col-span-2 pl-20 flex text-left">
@@ -20,89 +25,107 @@
             </nav>
         <section class="pt-35 pl-20 ">
             <h1 class="text-7xl pb-7">
-               Iván Maldonado Ortiz 
+                Iván Maldonado Ortiz 
             </h1>
-            <p class="w-5/6 bg-[#222B33]/25  text-lg rounded-xl text-justify p-1 ">
-                 ¡Hola! Mi nombre es Iván y te doy la bienvenida a este espacio personal donde comparto un poco de quién soy y lo que me apasiona. Aquí encontrarás una mezcla de mis pasatiempos, intereses personales y algunas curiosidades sobre criptografía, una materia que me encuentro cursando en la universidad. Además, he incluido distintas formas de contactarme y enlaces a mis redes sociales, por si te interesa seguir de cerca lo que hago, conversar sobre temas en común o simplemente conocer más sobre mi día a día.
+            <p class="w-9/12 bg-[#222B33]/25  text-lg rounded-xl text-justify p-1 leading-loose">
+                ¡Hola! Mi nombre es Iván y te doy la bienvenida a este espacio personal donde comparto un poco de quién soy y lo que me apasiona. Aquí encontrarás una mezcla de mis pasatiempos, intereses personales y algunas curiosidades sobre criptografía, una materia que me encuentro cursando en la universidad. Además, he incluido distintas formas de contactarme y enlaces a mis redes sociales, por si te interesa seguir de cerca lo que hago, conversar sobre temas en común o simplemente conocer más sobre mi día a día.
             </p>
             <button type="button" class="mt-14 p-2  rounded-xl bg-[#222B33]/35 drop-shadow-lg border-1 hover:bg-[#222B33]/70 hover:border-2">Descargar CV</button>
+            <div class="flex justify-self-end pr-40">
+                <img src="images/perfil.PNG" alt="foto de ivan maldonado ortiz" class="w-150 brightness-80 mask-x-from-70% mask-b-from-70% ">
+            </div>
         </section>   
     </header>
-
-    <main class="text-black bg-[#F0F0F0]">
-        <section class="relative bg-[#222B33] text-[#B0B8C1] grid grid-cols-4 gap-2 pr-2 pt-15">
+    <main class="text-[#222B33] bg-[#F0F0F0]">
+        <section class="relative bg-[#222B33] text-[#B0B8C1] grid grid-cols-4 gap-2 pr-2 pt-15 ">
             <!-- Degradado superior -->
             <div class="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#B0B8C1]/70 via-[#4A5A6A]/70 to-transparent pointer-events-none z-10"></div>
 
-            <span class="flex mt-5 justify-end text-7xl pr-2 z-20">Pictures</span>
+            <span class="flex mt-5 justify-end text-7xl pr-2 z-20 ">Paisajes</span>
             <img src="./images/paisaje2.JPEG" alt="Imagen de resumen" class="pr-2 z-20 brightness-60 mask-t-from-70% ">
             <img src="./images/paisaje3.JPEG" alt="Imagen de resumen" class="pr-2 z-20 brightness-60 mask-t-from-70% ">
             <img src="./images/paisaje1.JPEG" alt="Imagen de resumen" class="pr-2 z-20 brightness-60 mask-t-from-70% ">
-            <p class="col-span-4 col-start-2 pb-20 w-5/6 z-20">
-            Una de las cosas que disfruto es tomar fotos a los paisajes que se me hacen interesantes o bonitos, estas son algunas de las que he tomado.
+            <p class="col-span-4 col-start-2 pb-20 w-5/6 z-10 text-justify leading-loose">
+                Algo que realmente disfruto es capturar aquellos paisajes que me resultan únicos, llamativos o simplemente hermosos. Ya sea por la luz, los colores o el momento en que los encuentro, cada fotografía representa una forma de conectar con el entorno. Estas son algunas de las imágenes que he tomado y que me gustaría compartir
             </p>
         </section>
 
-        <section id="estudios">
-            <h2>
+        <section id="estudios" class="text-6xl grid grid-cols-2 gap-10 px-15">
+            <h2 class=" text-8xl text-center col-start-2 flex justify-start font-semibold pt-2">
                 Estudios
             </h2>
-            <section>
-                <h3>
-                    Secundaria
-                </h3>
-                <ol>
-                    <li>
-                        Nombre de la Escuela: Instituto Guadalupe Victoria
-                    </li>
-                    <li>
-                        Ubicación: Ixmiquilpan, Hidalgo
-                    </li>
-                    <li>
-                        Años cursados: 2015-2018
-                    </li>
-                </ol>
-                
-            </section>
-
-            <section>
-                <h3>
-                    Preparatoria
-                </h3>
-                <ol>
-                    <li>
-                        Nombre de la Institución: Preparatoria Guadalupe Victoria
-                    </li>
-                    <li>
-                        Ubicación: Ixmiquilpan, Hidalgo
-                    </li>
-                    <li>
-                        Años cursados: 2018-2021
-                    </li>
-                </ol>
+            <div class="flex justify-center">
+                <img src="./images/op1.jpg" alt="" class="w-4/6 relative -mt-45">
+            </div>
+            <section class=" flex justify-start items-center ">
+                <div>
+                    <h3 class="font-semibold mb-5">
+                        Secundaria
+                    </h3>
+                    <ul class="list-inside list-image-[url('images/ul.png')] text-4xl text-left space-y-3 ">
+                        <li>
+                            Nombre de la Escuela: Instituto Guadalupe Victoria
+                        </li>
+                        <li>
+                            Ubicación: Ixmiquilpan, Hidalgo
+                        </li>
+                        <li>
+                            Años cursados: 2015-2018
+                        </li>
+                    </ul>
+                </div>
             </section>
             
-            <section>
-                <h3>
-                    Universidad
-                </h3>
-                <ol>
-                    <li>
-                        Nombre de la Universidad: Instituto Politécnico Nacional (IPN)
-                    </li>
-                    <li>
-                        Carrera: Ingeniería en Sistemas Computacionales
-                    </li>
-                    <li>
-                        Ubicación: Ciudad de México
-                    </li>
-                    <li>
-                        Años cursados: 2022- Presente
-                    </li>
-                    <li>
-                        Notas Adicionales: Exmiembro del club de algoritmia y participacion en la primera y segunda fecha de ICPC 2023
-                    </li>
-                </ol>
+            <section class="flex justify-end items-center">
+                <div class="">
+                    <h3 class="font-semibold mb-5 ">
+                        Preparatoria
+                    </h3>
+                    <ul class="list-inside list-image-[url('images/ul.png')] text-4xl text-left space-y-3">
+                        <li>
+                            Nombre de la Institución: Preparatoria Guadalupe Victoria
+                        </li>
+                        <li>
+                            Ubicación: Ixmiquilpan, Hidalgo
+                        </li>
+                        <li>
+                            Años cursados: 2018-2021
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="flex justify-center">
+                <img src="./images/prepa.JPEG" alt="" class="w-5/6">
+            </div>
+
+            <div class="flex justify-center">
+                <img src="./images/icpc.jpg" alt="" class="max-w-full h-auto object-contain ">
+            </div>
+
+            <section class="flex justify-start items-center">
+                <div class="">
+                    <h3 class="font-semibold mb-5">
+                        Universidad
+                    </h3>
+                    <ul class="list-inside list-image-[url('images/ul.png')] text-4xl text-left space-y-3">
+                        <li>
+                            Nombre de la Universidad: Instituto Politécnico Nacional (IPN)
+                        </li>
+                        <li>
+                            Carrera: Ingeniería en Sistemas Computacionales
+                        </li>
+                        <li>
+                            Ubicación: Ciudad de México
+                        </li>
+                        <li>
+                            Años cursados: 2022- Presente
+                        </li>
+                        <li>
+                            Notas Adicionales: Exmiembro del club de algoritmia y participacion en la primera y segunda fecha de ICPC 2023
+                        </li>
+                    </ul>
+                </div>
             </section>
         </section>
 
